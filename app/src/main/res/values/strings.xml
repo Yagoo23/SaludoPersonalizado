@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SaludoPersonalizado</string>
+    <string name="nombre">Escribe tu nombre:</string>
+    <string name="anho">Año de nacimiento</string>
+    <string name="Sra">Sra.</string>
+    <string name="Sr">Sr.</string>
+    <string name="despedida">¿Desea despedida?</string>
+    <string name="adios">Adiós</string>
+    <string name="HastaP">Hasta pronto</string>
+    <string name="saludar">SALUDAR</string>
+    <string name="elegir_desp">Elige despedida.</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/verde">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:padding="@dimen/paddingTv"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margenET"
+            android:hint=""
+            android:inputType="text|textCapWords"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anho"
+            android:padding="@dimen/paddingTv"
+            android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margenET"
+        android:hint=""
+        android:inputType="number"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/rgSra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbSra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Sra"
+                android:layout_marginLeft="@dimen/margenRB"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/rbSr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Sr"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/chkDespedida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/despedida"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tvDespedida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/elegir_desp"
+            android:layout_marginLeft="@dimen/margenRB"
+            android:textColor="@color/black"/>
+        <RadioGroup
+            android:id="@+id/rgDespedida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbAdios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/adios"
+                android:layout_marginLeft="@dimen/margenRB"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/rbHastaP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/HastaP"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludar"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margenBt"/>
+
+
+</LinearLayout>

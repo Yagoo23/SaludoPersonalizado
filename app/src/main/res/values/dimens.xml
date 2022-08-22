@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="datos">25sp</dimen>
+    <dimen name="paddingTv">20sp</dimen>
+    <dimen name="margenET">50sp</dimen>
+    <dimen name="margenRB">35dp</dimen>
+    <dimen name="margenBt">15sp</dimen>
+</resources>
